@@ -1,0 +1,13 @@
+name: MapsPlus
+version: '${project.version}'
+main: me.almana.mapsplus.MapsPlus
+api-version: 1.18
+prefix: 'MapsPlus'
+authors: [ AlmanaX21 ]
+commands:
+  logo:
+    description: Get the server logo
+    permission: mapsplus.getlogo
+  custommap:
+    description: Obtain a custom map using an URL
+    permission: mapsplus.custommap
